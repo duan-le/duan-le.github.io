@@ -13,7 +13,14 @@ body {
     width: 75%
 }
 
+.landing-page a {
+    text-decoration: none;
+    color: #006d77;
+}
 
+.landing-page a:hover {
+    color: #83c5be;
+}
 
 nav {
     border-bottom: 0.1rem solid black;
@@ -26,5 +33,5 @@ nav {
 }
 
 .nav-link:hover {
-    color: #fca311 !important;
+    color: #006d77 !important;
 }
