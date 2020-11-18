@@ -41,7 +41,8 @@ body {
 
 #courses a {
     text-decoration: none;
-    color: #212529;
+    color: #006d77;
+    /* color: #212529; */
 }
 
 #courses a:hover {
