@@ -1,2 +1,2 @@
 == My Personal Website/Portfolio
-Made using HTML, CSS and Bootstrap v4.5.3.
+Made using HTML, CSS and Bootstrap v4.5.3 and hosted using github-pages.
