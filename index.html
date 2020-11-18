@@ -81,7 +81,17 @@
     </script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-      ScrollReveal().reveal('.navbar', {duration: 2000})
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin: 'top',
+        distance: '2rem'
+      });
+      sr.reveal('#landing', {
+        duration: 2000,
+        origin: 'left',
+        distance: '5rem'
+      });
     </script>
 </body>
 
