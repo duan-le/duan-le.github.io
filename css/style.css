@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat';
     margin-top: 20rem;
@@ -37,6 +41,7 @@ body {
     background-color: #e6e6e6;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    scroll-margin-top: 10rem;
 }
 
 #projects h1 {
@@ -56,6 +61,7 @@ body {
 #courses {
     margin-top: 10em;
     margin-bottom: 10em;
+    scroll-margin-top: 10rem;
 }
 
 #courses h1 {
