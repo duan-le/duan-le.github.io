@@ -1,79 +1,88 @@
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Montserrat';
-    margin-top: 20rem;
+	font-family: "Montserrat";
+	margin-top: 20rem;
 }
 
 .navbar {
-    border-bottom: 0.1rem solid black;
-    font-weight: 700;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+	border-bottom: 0.1rem solid black;
+	font-weight: 700;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .nav-link {
-    color: black !important;
+	color: black !important;
 }
 
 .nav-link:hover {
-    color: #006d77 !important;
+	color: #006d77 !important;
 }
 
 #landing h1 {
-    font-size: 1.625rem;
-    font-weight: 600;
+	font-size: 1.625rem;
+	font-weight: 600;
 }
 
 #landing a {
-    text-decoration: none;
-    color: #006d77;
+	text-decoration: none;
+	color: #006d77;
 }
 
 #landing a:hover {
-    color: #83c5be;
+	color: #83c5be;
 }
 
 #projects {
-    margin-top: 20em;
-    background-color: #e6e6e6;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    scroll-margin-top: 10rem;
+	margin-top: 20em;
+	background-color: #e6e6e6;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	scroll-margin-top: 10rem;
 }
 
 #projects h1 {
-    font-size: 1.625rem;
-    font-weight: 600;
+	font-size: 1.625rem;
+	font-weight: 600;
 }
 
-.project-frame-1 {
-    background-color: lightgrey;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#projects a {
+	text-decoration: none;
+	color: #006d77;
 }
+
+#projects a:hover {
+	color: #83c5be;
+}
+
+/* .project-frame-1 {
+	background-color: lightgrey;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
 
 #courses {
-    margin-top: 10em;
-    margin-bottom: 20em;
-    scroll-margin-top: 10rem;
+	margin-top: 10em;
+	margin-bottom: 20em;
+	scroll-margin-top: 10rem;
 }
 
 #courses h1 {
-    font-size: 1.625rem;
-    font-weight: 600;
+	font-size: 1.625rem;
+	font-weight: 600;
 }
 
 #courses a {
-    text-decoration: none;
-    color: #006d77;
+	text-decoration: none;
+	color: #006d77;
 }
 
 #courses a:hover {
-    color: #83c5be;
+	color: #83c5be;
 }
